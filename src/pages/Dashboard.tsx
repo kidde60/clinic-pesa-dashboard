@@ -58,7 +58,7 @@ const Dashboard = () => {
         onClose={() => console.log("Close clicked")}
       />
 
-      <div className="bg-gray-50 min-h-[20vh] md:min-h-[30vh] pt-6 px-5 -mt-8 rounded-t-3xl">
+      <div className="bg-gray-50 min-h-[20vh] md:min-h-[30vh] pt-6 px-6 md:px-20 -mt-8">
         <BalanceCard
           balance={balance}
           autosaveAmount={autosaveAmount}

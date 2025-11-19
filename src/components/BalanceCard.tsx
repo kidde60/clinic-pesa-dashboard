@@ -40,9 +40,9 @@ const BalanceCard: React.FC<BalanceCardProps> = ({
           style={{ color: "#AFAFAF" }}
         >
           {balanceVisible ? (
-            <Eye className="w-6 h-6" />
+            <EyeOff className="w-6 h-6 text-[#013E5D]" />
           ) : (
-            <EyeOff className="w-6 h-6" />
+            <Eye className="w-6 h-6 text-[#013E5D]" />
           )}
         </button>
       </div>
